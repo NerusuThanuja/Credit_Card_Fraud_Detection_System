@@ -7,7 +7,7 @@ st.set_page_config(page_title="Credit Card Fraud Detection")
 st.title("💳 Credit Card Fraud Detection")
 st.write("Enter transaction details below")
 
-feature_count=29
+feature_count=30
 
 # Input field
 input_text = st.text_area(
