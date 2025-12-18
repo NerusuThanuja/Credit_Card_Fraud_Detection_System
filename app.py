@@ -7,9 +7,7 @@ st.set_page_config(page_title="Credit Card Fraud Detection")
 st.title("💳 Credit Card Fraud Detection")
 st.write("Enter transaction details below")
 
-# Load dataset ONLY to know number of features
-df = pd.read_csv("creditcard.csv")
-feature_count = df.shape[1] - 1  # exclude Class column
+FEAUTURE_COUNT=30
 
 # Input field
 input_text = st.text_area(
