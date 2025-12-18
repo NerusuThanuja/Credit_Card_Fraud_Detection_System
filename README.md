@@ -16,13 +16,13 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - Real-time prediction using Streamlit web interface
 - User-friendly input and result display
 
-  ## How It Works
+## How It Works
 1. Transaction data is preprocessed and scaled.
 2. A machine learning model is trained on historical transaction data.
 3. User inputs transaction features through the Streamlit app.
 4. The model predicts whether the transaction is fraudulent or legitimate.
 
-   ## How to Run
+## How to Run
 1. Download the dataset from Kaggle and place `creditcard.csv` in the project folder.
 2. Install the required libraries:
    ```bash
@@ -30,7 +30,6 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
    streamlit run app.py
 
-   ---
 
 ## Technologies Used
 - Python
@@ -39,7 +38,7 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - Scikit-learn
 - Streamlit
 
-  ## Project Motivation
+## Project Motivation
 Financial fraud is a major challenge in digital transactions. 
 This project aims to demonstrate how machine learning can be applied 
 to detect fraudulent credit card transactions and improve financial security.
